@@ -4,12 +4,12 @@ class public static void main(String args[])
 	System.out.println("Enter limit");
 	int i,fact;
 	DataInputStream br= new DataInputStream(System.in);
-	i=0,fact=1;
+	i=fact=1;
 	limit=Integer.ParseInt(br.ReadLine());
 	System.out.println(i);
-	For(i=0;i<limit;i++)
+	For(i=1;i<limit;i++)
 	{
-		fact+=fact*i;
+		fact=fact*i;
 		System.out.println(fact);
 	}
 
